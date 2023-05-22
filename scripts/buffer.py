@@ -8,9 +8,11 @@ def get_dataframe():
     return df
 
 #return all items from column instagram_comments in dataframe
-def list_comments():
+def get_x():
     df = get_dataframe()
     instagram_comments = df['instagram_comments']
 
     return instagram_comments
 
+def get_y():
+    pass
