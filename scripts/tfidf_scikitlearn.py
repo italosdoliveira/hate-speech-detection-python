@@ -1,5 +1,4 @@
-import buffer
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 def get_vector(instagram_comments):
     vectorizer = TfidfVectorizer()
